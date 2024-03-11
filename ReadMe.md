@@ -19,3 +19,5 @@ you can do several actions with user tools by typing in commands.
 "Scrape Accounts" Saves all the accounts that have already been loaded on the current page to local memory
 "Follow Back" takes a text file for follower and one for following and prints out who isnt following you back
 "Exit" closes the web page
+
+There are two notable issues, which can be worked around.  The first is the scrolling function sometimes crashes when slelenium tries to scroll a stale element.  the second is that instagram only will load like 500 accounts.  so if there are more accounts, you have to do it a few times in order to make this work.  this means the method is a little impractible after like 1500 accounts, however pages that big probably arent thinking about who doesnt follow them back anyways
