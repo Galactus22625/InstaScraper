@@ -3,11 +3,12 @@ The code is a little messy since this was a weekend project and I did not have t
 
 Add Account information into Accounts.py, use the account login for the account you want to check if using autoscraper, otherwise just add any throwaway account that can view your account.
 
-AutoScraper.py logs into account and finds followers and  following of the account,and who isn't follwoing back all automatically
-Auto scraper is sometimes bugged where after finding one list, program will crash when trying to scroll the next one.  This is becuase selenium is trying to select a stale element.  Never fixed because using UserTools is more versatile.
+AutoScraper.py logs into account and finds followers and  following of the account and who isn't follwoing back all automatically.
+Auto scraper is sometimes bugged where after scrolling through one list, program will crash when trying to scroll the next one.  This is becuase selenium is trying to select a stale element.  Never fixed because using UserTools is more versatile.
 
-accounts are accessed by scrolling down the following or followers list to load all the accounts onto the webpage
-To use, user user tools to navigate to the account of interest, we will scape all followers, save them, scrape all following, save them, then run follow back
+Accounts are accessed by scrolling down the following or followers list to load all the accounts onto the webpage
+
+To use, user user tools to navigate to the account of interest, we will scape all followers, save them, scrape all following, save them, then run follow back.  We can then use all these functions to find who doesnt follow us back.
 
 All functionality can be achieved in User Tool.
 you can do several actions with user tools by typing in commands.
